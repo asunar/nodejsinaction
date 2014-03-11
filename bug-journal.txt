@@ -1,0 +1,6 @@
+Node js bug journal
+
+forgot to call the main function to start processing (next)
+Misspelled package in require
+missing closing parens
+used parens where brackets were needed
