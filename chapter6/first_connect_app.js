@@ -1,4 +1,5 @@
 var connect = require('connect');
+var logger = require('configurable_logger');
 
 function logger(req, res, next) {
 	console.log('%s %s', req.method, req.url);
@@ -49,7 +50,7 @@ function admin(req, res, next) {
 }
 
 connect()
-  .use(logger)
+	.use(logger(':httpVersion :method :url'))
   .use('/admin', restrict)
   .use('/admin', admin)
   .use(hello)
