@@ -7,3 +7,5 @@ missing closing parens
 used parens where brackets were needed
 
 used echo >> .tasks to create a file from command prompt. The file created had "ECHO is on" user type NUL > .tasks
+
+Misspelled JSON.stringify (typed JSON.stringfy)
