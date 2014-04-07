@@ -1,6 +1,9 @@
 Node js bug journal
 
+Why do we need to use libraries for flow control in node? Should flow control be baked in?
 forgot to call the main function to start processing (next)
 Misspelled package in require
 missing closing parens
 used parens where brackets were needed
+
+used echo >> .tasks to create a file from command prompt. The file created had "ECHO is on" user type NUL > .tasks
